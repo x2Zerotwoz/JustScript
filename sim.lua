@@ -42,7 +42,7 @@ getgenv().simple_settings = {
         [6] = "Dark-Dark",
     },
 
-    ["FPSCAP"] = 30, -- Limit the frame rate to optimize performance
+    ["FPSCAP"] = 15, -- Limit the frame rate to optimize performance
     ["LOWTEXTURE"] = true -- Reduce graphic quality for better performance
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/simple-hubs/contents/refs/heads/main/bloxfruit-kaitan-main.lua"))()
