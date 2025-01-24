@@ -88,7 +88,7 @@ getgenv().ConfigsKaitun = {
 	["Performance"] = {
 		["White Screen"] = true,
 		["Booster FPS"] = true,
-		["Lock FPS"] = 15,
+		["Lock FPS"] = 30,
 		["AFK Timeout"] = 150,
 	},
 }
