@@ -2,6 +2,7 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+setfpscap(15)
 _G.Team = "Pirate" -- Marine / Pirate
 getgenv().Script_Mode = "Kaitun_Script"
 _G.MainSettings = {
@@ -92,7 +93,6 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SerpentBow'] = true,
     ['SoulGuitar'] = true
 }
-(getgenv()).key = "";
+(getgenv()).key = "MARUUVZQ015C95H0NC1MWK09";
 (getgenv()).id = "728869467538456637";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
-setfpscap(15)
