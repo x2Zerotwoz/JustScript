@@ -92,7 +92,7 @@ _G.GunSettings = { -- ปืนที่จะทำ
     ['SerpentBow'] = true,
     ['SoulGuitar'] = true
 }
-setfpscap(15)
 (getgenv()).key = "";
 (getgenv()).id = "728869467538456637";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
+setfpscap(15)
