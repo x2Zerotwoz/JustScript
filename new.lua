@@ -8,7 +8,7 @@ _G.MainSettings = {
         ["EnabledHOP"] = true, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
         ["UseGun"] = false,
         ['FPSBOOST'] = true, -- ภาพกาก
-        ["FPSLOCKAMOUNT"] = 60, -- จำนวน FPS
+        ["FPSLOCKAMOUNT"] = 15, -- จำนวน FPS
         ['WhiteScreen'] = true, -- จอขาว
         ['CloseUI'] = true, -- ปิด Ui
         ["NotifycationExPRemove"] = true, -- ลบ ExP ที่เด้งตอนฆ่ามอน
@@ -95,4 +95,3 @@ _G.GunSettings = { -- ปืนที่จะทำ
 (getgenv()).key = "MARUUVZQ015C95H0NC1MWK09";
 (getgenv()).id = "728869467538456637";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
-setfpscap(15)
