@@ -92,4 +92,5 @@ getgenv().ConfigsKaitun = {
 		["AFK Timeout"] = 150,
 	},
 }
+if not game:IsLoaded() then game.Loaded:Wait(1) end
 loadstring(game:HttpGet("https://api.realaya.xyz/v1/files/l/73mkp0aqyfo4ypy8hvl0nz10lq49fey5.lua"))()
